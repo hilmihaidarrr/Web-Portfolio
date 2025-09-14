@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root { color-scheme: dark light; }
+html, body { font-family: "Poppins", system-ui, sans-serif; }
+
+/* gradient hero + mesh noise */
+.bg-hero {
+  background:
+    radial-gradient(1200px 600px at 20% 0%, rgba(99,102,241,.25) 0%, transparent 60%),
+    radial-gradient(1000px 600px at 100% 20%, rgba(168,85,247,.25) 0%, transparent 60%),
+    linear-gradient(180deg, #0b1020 0%, #0b1020 40%, #0a0f1b 100%);
+}
+
+.grid-mask::before{
+  content:"";
+  position:absolute; inset:0;
+  background-image: linear-gradient(rgba(255,255,255,.06) 1px,transparent 1px),
+                    linear-gradient(90deg, rgba(255,255,255,.06) 1px,transparent 1px);
+  background-size: 32px 32px;
+  mask-image: radial-gradient(ellipse at center, black 40%, transparent 70%);
+  pointer-events:none;
+}
