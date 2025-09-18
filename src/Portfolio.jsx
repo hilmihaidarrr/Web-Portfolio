@@ -14,7 +14,7 @@ import {
   Briefcase, 
   Users,
 } from "lucide-react";
-import { Button } from "./components/ui/Button";
+import { Button } from "./components/ui/button";
 
 
 const CONTACT = {
@@ -446,9 +446,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-
-
-      // EDUCATION
       <section id="education" className="bg-[#0a0f1b] border-t border-white/10">
         <div className="mx-auto max-w-6xl px-4 py-16">
           <h2 className="text-3xl font-bold text-white">Education & Certifications</h2>
