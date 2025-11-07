@@ -1,4 +1,4 @@
-# Personal Portfolio – Hilmi Haidar
+# Personal Portfolio - Hilmi Haidar
 
 A personal portfolio website built with **React** and **Tailwind CSS** to showcase my projects, skills, and experiences across data science and software development.
 
@@ -23,6 +23,3 @@ A personal portfolio website built with **React** and **Tailwind CSS** to showca
 
 ## 🌐 Live Demo
 [https://hilmihaidar.space](https://hilmihaidar.space)
-
-## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
