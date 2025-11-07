@@ -1,12 +1,28 @@
-# React + Vite
+# Personal Portfolio – Hilmi Haidar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with **React** and **Tailwind CSS** to showcase my projects, skills, and experiences across data science and software development.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Clean and responsive design with dark theme
+- Sections for Projects, Skills, Experience, and Education
+- Integration with GitHub, LinkedIn, and Email
+- Deployed on Vercel for fast performance
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Tech Stack
+- React + Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide Icons
 
-## Expanding the ESLint configuration
+## 🧩 Highlighted Projects
+- Cuacane (Weather App with PyQt5)
+- Vaisala Converter (Sensor Data Parser)
+- Wind Prediction Models (MLP Forecasting)
+- Saepul Transindo Perkasa (Logistics Website)
+- Yasmin Portfolio (MBTI-Themed Site)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Live Demo
+[https://hilmihaidar.space](https://hilmihaidar.space)
+
+## 📄 License
+This project is open source and available under the [MIT License](LICENSE).
