@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {
-  // aman di semua versi lucide-react
   Github as GitHub,
   Linkedin as LinkedIn,
   Mail,
@@ -15,8 +14,6 @@ import {
   Users,
 } from "lucide-react";
 import { Button } from "./components/ui/button";
-
-
 
 const CONTACT = {
   name: "Muhamad Hilmi Haidar",
