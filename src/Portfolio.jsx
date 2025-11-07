@@ -17,6 +17,7 @@ import {
 import { Button } from "./components/ui/button";
 
 
+
 const CONTACT = {
   name: "Muhamad Hilmi Haidar",
   location: "Jawa Barat, Indonesia",
@@ -29,11 +30,11 @@ const CONTACT = {
 const projects = [
   {
     title: "Cuacane, Weather and Dispersion App",
-    tagline: "Desktop app for real time weather monitoring and plume simulation",
+    tagline: "Desktop app for real-time weather monitoring and plume simulation",
     points: [
       "PyQt5 and QML interface with adaptive dashboard and dark mode",
       "Reads Vaisala WXT520 sensor data in real time and logs to CSV",
-      "Multi horizon wind prediction using MLP at 15m, 1h, 3h, 6h",
+      "Multi-horizon wind prediction using MLP at 15m, 1h, 3h, 6h",
       "Gaussian Plume simulation with Leaflet heatmap and legend",
     ],
     links: [
@@ -43,6 +44,48 @@ const projects = [
     image: "/CuacaneLogo.png",
   },
   {
+    title: "Saepul Transindo Perkasa Logistics Website",
+    tagline: "Company website for nationwide logistics and cargo services",
+    points: [
+      "Developed a professional logistics landing page for land, sea, and air cargo services",
+      "Implemented auto-sliding hero carousel and responsive layout using React and Tailwind CSS",
+      "Integrated WhatsApp contact link with pre-filled message for instant client communication",
+      "Deployed on Vercel with clean structure and clear navigation (Home, Profile, Gallery, Guestbook/Tracking, Contact)",
+    ],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://saepul-transindo-perkasa.vercel.app/",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/hilmihaidarrr/saepul-transindo-perkasa",
+      },
+    ],
+    
+    image: "/saepul.png",
+  },
+  {
+    title: "Yasmin MBTI-Themed Portfolio",
+    tagline: "Interactive personal portfolio tailored to MBTI personality",
+    points: [
+      "Built a clean and responsive portfolio with sections for About, Projects, and Contact",
+      "Customized UI and content based on MBTI personality for more personal branding",
+      "Optimized layout for both mobile and desktop using React and modern CSS",
+    ],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://portfolio-yasmin-nine.vercel.app/",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/hilmihaidarrr/mbti-portfolio",
+      },
+    ],
+    image: "/mimin.png",
+  },
+  {
     title: "Vaisala Converter",
     tagline: "GUI tool to convert raw sensor lines to CSV and MH2",
     points: [
@@ -50,18 +93,28 @@ const projects = [
       "Speeds up BRIN research workflows for dispersion models",
       "Includes batch processing and simple QA checks",
     ],
-    links: [{ label: "GitHub", href: "https://github.com/hilmihaidarrr/Vaisala-Converter-App" }],
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/hilmihaidarrr/Vaisala-Converter-App",
+      },
+    ],
     image: "/Converterapp.jpg",
   },
-  {
+    {
     title: "Wind Prediction Models",
     tagline: "MLP models for wind speed and direction forecasting",
     points: [
       "Targets: wind speed, sin(dir), cos(dir)",
       "Training with 2021 to 2022 data and validation with 2023 to 2024",
-      "4 models for 15m, 1h, 3h, 6h horizons",
+      "Four models for 15m, 1h, 3h, and 6h horizons",
     ],
-    links: [{ label: "Notebook and code", href: "https://github.com/hilmihaidarrr/MLP_Wind_Direction-Speed_Prediction_Model" }],
+    links: [
+      {
+        label: "Notebook and code",
+        href: "https://github.com/hilmihaidarrr/MLP_Wind_Direction-Speed_Prediction_Model",
+      },
+    ],
     image: "/MLP.jpg",
   },
 ];
